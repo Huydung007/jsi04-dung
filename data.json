@@ -1,0 +1,151 @@
+[
+    {
+        "id": 1,
+        "name": "Rubik Gan 356 RS stickerless 3x3x3 (SP004254)",
+        "price": "350",
+        "cost": 525,
+        "image": "/spck_dung/anh/1.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Rubik 3x3 GAN 356 M Stickerless with GES+ (Cao cấp có nam châm)",
+        "price": "590",
+        "cost": 650,
+        "image": "/spck_dung/anh/2.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Rubik GAN 356 M no GES+ 3x3 Stickerless có nam châm cao cấp (SP006057)",
+        "price": "499",
+        "cost": 550,
+        "image": "/spck_dung/anh/3.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Rubik GAN 14 Maglev UV 3x3 có nam châm cao cấp nhất 2023 chính hãng",
+        "price": "1600",
+        "cost": 1800,
+        "image": "/spck_dung/anh/4.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Rubik Gan 356 i Carry 3x3x3 Stickerless có bluetooth nam châm cao cấp chính hãng kết nối điện thoại",
+        "price": "650",
+        "cost": 1000,
+        "image": "/spck_dung/anh/5.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Rubik QiYi MS 3x3 Magnetic Stickerless có nam châm",
+        "price": "150",
+        "image": "/spck_dung/anh/6.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Rubik QiYi MS Magnetic 4x4 Stickerless có nam châm (SP006062)",
+        "price": "160",
+        "image": "/spck_dung/anh/7.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Combo Rubik biến thể - MoFangJiaoShi Gift Packing With 4 Cubes Stickerless",
+        "price": "350",
+        "image": "/spck_dung/anh/8.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Rubik 4x4 Gan 460M Stickerless có nam châm cao cấp(SP003613)",
+        "price": "500",
+        "image": "/spck_dung/anh/9.jpg"
+    },
+    {
+        "id": 11,
+        "name": "Rubik Mofangjiaoshi Meilong 3x3 M Stickerless có nam châm (SP006076)",
+        "price": "120",
+        "image": "/spck_dung/anh/11.jpg"
+    },
+    {
+        "id": 12,
+        "name": "Rubik Gan 356 RS stickerless 3x3x3 (SP004254)",
+        "price": "350",
+        "image": "/spck_dung/anh/12.jpg"
+    },
+    {
+        "id": 13,
+        "name": "Rubik GAN 356 M no GES+ 3x3 Stickerless có nam châm cao cấp (SP006057)",
+        "price": "499",
+        "image": "/spck_dung/anh/13.jpg"
+    },
+    {
+        "id": 14,
+        "name": "Rubik 3x3 GAN 356 M Stickerless with GES+ (Cao cấp có nam châm)",
+        "price": "590",
+        "image": "/spck_dung/anh/14.jpg"
+    },
+    {
+        "id": 15,
+        "name": "Rubik GAN 14 Maglev UV 3x3 có nam châm cao cấp nhất 2023 chính hãng",
+        "price": "1600",
+        "image": "/spck_dung/anh/15.jpg"
+    },
+    {
+        "id": 16,
+        "name": "Rubik GAN 356 3x3 MagLev Magnetics có nam châm Flagship 2023",
+        "price": "850",
+        "image": "/spck_dung/anh/16.jpg"
+    },
+    {
+        "id": 17,
+        "name": "Rubik 3x3 MoYu Weilong WRM V9 M Magnetics 3x3 Stickerless có nam châm cao cấp 2023",
+        "price": "250",
+        "image": "/spck_dung/anh/17.jpg"
+    },
+    {
+        "id": 18,
+        "name": "Rubik QiYi X-Man Tornado V3 M Flagship 3x3x3 có nam châm mới nhất 2022",
+        "price": "550",
+        "image": "/spck_dung/anh/18.jpg"
+    },
+    {
+        "id": 19,
+        "name": "Rubik GAN 356 RS2 3x3 stickerless",
+        "price": "650",
+        "image": "/spck_dung/anh/19.jpg"
+    },
+    {
+        "id": 20,
+        "name": "Rubik GAN 356 Maglev UV 3x3 có nam châm Flagship 2023",
+        "price": "899.000",
+        "image": "/spck_dung/anh/20.jpg"
+    },
+    {
+        "id": 21,
+        "name": "Đồng hồ bấm giờ Rubik QiYi SpeedCubing Timer",
+        "price": "250",
+        "image": "/spck_dung/anh/21.jpg"
+    },
+    {
+        "id": 22,
+        "name": "Đồng hồ Rubik YJ Timer",
+        "price": "250",
+        "image": "/spck_dung/anh/22.jpg"
+    },
+    {
+        "id": 23,
+        "name": "Đồng hồ GAN Timer Silver - SP006427",
+        "price": "650",
+        "image": "/spck_dung/anh/23.jpg"
+    },
+    {
+        "id": 24,
+        "name": "Bộ ốc Rubik Gan Numerical Ges V4",
+        "price": "120",
+        "image": "/spck_dung/anh/24.jpg"
+    },
+    {
+        "id": 25,
+        "name": "Thảm kê Rubik GAN Timer Mat 30x30 cm - SP006391",
+        "price": "150",
+        "image": "/spck_dung/anh/25.jpg"
+    }
+]
