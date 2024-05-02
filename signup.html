@@ -45,7 +45,7 @@
       </div>
     </div>
     <div>
-     <a class="nav-link" href="login.html"><i class="fa-solid fa-user btn-light" style="font-size: 20px;margin-right: 20px; color: black;"></i></a>
+     <a class="nav-link" href=""><i class="fa-solid fa-user btn-light" style="font-size: 20px;margin-right: 20px; color: black;"></i></a>
    </div>
    <div>
      <ul id="slide-out" class="sidenav">
@@ -55,22 +55,21 @@
     </div>
 </nav>
 
-<form>
-  <div class="mb-3">
-    <label for="exampleInputEmail1" class="form-label">Email address</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+<div id="out" class="mx-auto p-5">
+  <div class="mx-auto p-5 bg-info" style="width: 25%;">
+    <form id="signup-form" >
+      <h1>Sign Up</h1>
+      <input type="text" class="form-control my-2 bg-light rounded-3" placeholder=" Frist name" id="fname-input">
+      <input type="text" class="form-control my-2 bg-light rounded-3" placeholder=" Last name"id="lname-input">
+      <input type="email" class="form-control my-2 bg-light rounded-3" placeholder=" Email" id="email-input">
+      <input type="password" class="form-control my-2 bg-light rounded-3" placeholder=" Fassword" id="password-input">
+    </form>
+    <hr>
+    <div class="text-center">
+      <button type="button" class="btn btn-primary" id="signup-btn" onclick="register()">Sign Up</button>
+    </div>
   </div>
-  <div class="mb-3">
-    <label for="exampleInputPassword1" class="form-label">Password</label>
-    <input type="password" class="form-control" id="exampleInputPassword1">
-  </div>
-  <div class="mb-3 form-check">
-    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-    <label class="form-check-label" for="exampleCheck1">Check me out</label>
-  </div>
-  <button type="submit" class="btn btn-primary">Submit</button>
-</form>
+</div>
    
    
 </body>

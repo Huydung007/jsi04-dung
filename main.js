@@ -31,7 +31,7 @@ function loadProducts(data) {
 
 var elems = document.querySelectorAll('.sidenav');
 var instance = M.Sidenav.init(elems, {
-    edge: 'left',
+    edge: 'right',
     closeOnClick: false,
     draggable: true
 });
