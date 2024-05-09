@@ -36,3 +36,26 @@ var instance = M.Sidenav.init(elems, {
     draggable: true
 });
 
+// let users = []
+
+// function register() {
+//     // khai báo dom lấy dữ liệu nhập vào
+//     let username = document.getElementById('username').value
+//     let email = document.getElementById('email').value
+//     let pw = document.getElementById('pw').value
+//     let confirmed_pw = document.getElementById('confirmed-pw').value
+
+//     // tạo object chứa dữ liệu nhập vào
+//     let user = {
+//         name: username,
+//         email: email,
+//         pw: pw,
+//         confirmed_pw: confirmed_pw
+//     }
+//     // push object user vaof trong array
+//     users.push(user)
+//     // chuyển đổi object thành JSON string và lưu lên local Storage
+
+//     localStorage.setItem("users", JSON.stringify(users))
+// }
+
