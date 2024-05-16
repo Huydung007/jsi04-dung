@@ -16,5 +16,3 @@ signup_form.addEventListener("submit", (e) => {
     )
 
 })
-
-swal(" Xin chào thế giới! ")
