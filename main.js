@@ -18,13 +18,11 @@ function loadProducts(data) {
     for (let i = 0; i < data.length; i++) {
         let output = `
         <div class="card" style="width: 18rem; margin: 20px;">
-            <img src="${data[i].image}" alt="..." width="100%">
-            <div class="card-body">
-                <h6 class="card-title">${data[i].name}</h6>
-                <h5><span class="product-price">${data[i].price}</span>.000đ</h5>
-                <button class="btn btn-primary" onclick="addProduct(event)">Mua ngay!</button>
-            </div>
-        </div>`
+      <img src="${data[i].image}" alt="..." width="100%">
+      <h6 class="card-title">${data[i].name}</h6>
+      <h5><span class="price">${data[i].price}</span>.000đ</h5>
+      <button class="btn btn-primary" onclick="addProduct(event)">Mua ngay!</button>
+    </div>`
         product_area.innerHTML += output
     }
 }

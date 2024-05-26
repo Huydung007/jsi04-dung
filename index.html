@@ -7,56 +7,79 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
+    <link rel="stylesheet" href="style.css">  
+  </head>
 <body>
-   <nav class="navbar navbar-expand-lg bg-light ">
-       <div class="container-fluid">
-         <a class="navbar-brand" href="#">Navbar</a>
-         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-           <span class="navbar-toggler-icon"></span>
-         </button>
-         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-               <li class="nav-item">
-                 <a class="nav-link active" aria-current="page" href="#">Home</a>
-               </li>
-               <li class="nav-item">
-                 <a class="nav-link" href="#">Link</a>
-               </li>
-               <li class="nav-item dropdown">
-                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                   Dropdown
-                 </a>
-                 <ul class="dropdown-menu">
-                   <li><a class="dropdown-item" href="#">Action</a></li>
-                   <li><a class="dropdown-item" href="#">Another action</a></li>
-                   <li><hr class="dropdown-divider"></li>
-                   <li><a class="dropdown-item" href="#">Something else here</a></li>
-                 </ul>
-               </li>
-               <li class="nav-item">
-                 <a class="nav-link disabled">Disabled</a>
-               </li>
-            </ul>
-             <form class="d-flex" role="search">
-               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-               <button class="btn btn-outline-success" type="submit">Search</button>
-             </form>
-         </div>
-       </div>
-       <div>
-        <a class="nav-link" href="signup.html"><i class="fa-solid fa-user btn-light" style="font-size: 20px;margin-right: 20px; color: black;"></i></a>
+   <div class="d-flex flex-nowrap">
+    <nav class="navbar navbar-expand-lg bg-light flex-nowrap">
+      <div class="container-fluid justify-content-start ">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 position-fixed" id="in-nav" style="z-index: 99;">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle position-fixed" style="z-index: 99;" href="#" role="button" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                Link
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link disabled color-red">Disabled</a>
+            </li>
+          </ul>
+        </div>
       </div>
       <div>
-        <ul id="slide-out" class="sidenav">
-                  
-        </ul>
-        <p href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons blue-text">menu</i></p>
+        <form class="d-flex align-items-center" role="search">
+          <input class="form-control me-2 px-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
       </div>
-   </nav>
+      <div>
 
-  <div id="product-area" class="container-fluid row justify-content-center bg-dark text-white">
-    
+       <div id="slide-out" class="sidenav d-block text-center ">
+        <i class="fa-solid fa-user btn-light" style="font-size: 60px; color: black;"></i>
+        <div id="information">
+          <p class="email text-black">vv </p>
+          <p class="password"></p>
+        </div>
+       </div>
+       <p href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons blue-text">
+       <a class="nav-link" href="signup.html"><i class="fa-solid fa-user btn-light" style="font-size: 20px;margin-right: 20px; color: black;"></i></a>
+       </p>
+     </div>
+     <!-- <div>
+       <ul id="slide-out" class="sidenav">
+                 
+       </ul>
+       <p href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons blue-text">
+       <a class="nav-link" href="signup.html"><i class="fa-solid fa-user btn-light" style="font-size: 20px;margin-right: 20px; color: black;"></i></a>
+       </i></p>
+     </div> -->
+  </nav>
+   </div>
+   
+
+  <div id="product-area" class="container-fluid row justify-content-center text-white">
+    <!-- <div class="card" style="width: 18rem; margin: 20px;">
+      <img src="${data[i].image}" alt="..." width="100%">
+      <h6 class="card-title">${data[i].name}</h6>
+      <h5><span class="price">${data[i].price}</span>.000đ</h5>
+      <button class="btn btn-primary" onclick="addProduct(event)">Mua ngay!</button>
+    </div> -->
   </div>
 
   <footer class="page-footer">
@@ -79,7 +102,7 @@
     </div>
     <div class="footer-copyright">
       <div class="container">
-      © 2014 Copyright Text
+      © 2024 
       <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
       </div>
     </div>
@@ -88,4 +111,6 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 <script src="main.js"></script>
+<script src="signup.js"></script>
+<script src="signin.js"></script>
 </html>

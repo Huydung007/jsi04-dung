@@ -9,7 +9,14 @@ signup_form.addEventListener("submit", (e) => {
 
     auth.createUserWithEmailAndPassword(email, password).then(
         (cred) => {
-            alert('Sign up successfully!')
+            Swal.fire({
+                title: 'Success!',
+                text: 'Welcome, you have successfully signed up!',
+                icon: 'success',
+                confirmButtonText: 'OK'
+            }).then(() => {
+                window.location.href = 'index.html'
+            })
             console.log(cred)
             signup_form.reset()
         }
@@ -17,4 +24,3 @@ signup_form.addEventListener("submit", (e) => {
 
 })
 
-swal(" Xin chào thế giới! ")
