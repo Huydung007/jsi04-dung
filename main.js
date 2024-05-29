@@ -27,6 +27,28 @@ function loadProducts(data) {
     }
 }
 
+let id = 0
+let total = 0
+let cartbody = document.getElementById("cart-body")
+let cartTotal = document.getElementById("total-price")
+
+let cartBtn = document.getElementById("cart-shop")
+let cartWrapper = document.getElementById("cart-wrapper")
+
+let addProduct = (event) => {
+    let name = document.querySelector(".card-title").innerText
+    let price = document.querySelector(".price").innerText
+    id += 1
+    total += parseInt(price)
+    let output = `<tr>
+        <td>${id}</td>
+        <td>${name}</td>
+        <td>${price}.000đ</td>
+    </tr>`
+    cartbody.innerHTML += output
+    cartTotal.innerHTML = total
+}
+
 var elems = document.querySelectorAll('.sidenav');
 var instance = M.Sidenav.init(elems, {
     edge: 'right',

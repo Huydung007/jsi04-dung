@@ -41,7 +41,31 @@
     cursor: pointer;
 }
 
+#cart-shop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 
+}
+
+#cart-shop span {
+    display: flex;
+    font-size: 50%;
+    width: 50%;
+    height: 30%;
+    background-color: red;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border-radius: 50%;
+    top: 50%;
+    position: absolute;
+    right: -10%;
+}
+
+#cart-shop :active {
+    opacity: 0;
+}
 
 @media only screen and (max-width: 1023px) {
     .navbar-brand {
@@ -49,11 +73,16 @@
         width: auto;
     }
 
+    .navbar-toggler {
+        position: fixed;
+        z-index: 99;
+    }
+
     #product-area {
-        max-width: 100%;
+        width: 100%;
     }
 
     .card {
-        max-width: 100%;
+        width: 100%;
     }
 }

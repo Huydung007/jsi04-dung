@@ -1,5 +1,5 @@
-const signup_form = document.querySelector('#signin-form')
-signup_form.addEventListener("submit", (e) => {
+const signin_form = document.querySelector('#signin-form')
+signin_form.addEventListener("submit", (e) => {
     e.preventDefault()
 
     const email = signup_form['email'].value

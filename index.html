@@ -10,57 +10,100 @@
     <link rel="stylesheet" href="style.css">  
   </head>
 <body>
-   <div class="d-flex flex-nowrap">
+  <div class="d-flex flex-nowrap w-100 position-fixed" style="z-index: 1;">
     <nav class="navbar navbar-expand-lg bg-light flex-nowrap">
-      <div class="container-fluid justify-content-start ">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo01"
+          aria-controls="navbarTogglerDemo01"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse " id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0 position-fixed" id="in-nav" style="z-index: 99;">
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <a class="navbar-brand" href="#">Hidden brand</a>
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Link</a>
             </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle position-fixed" style="z-index: 99;" href="#" role="button" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                Link
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
-            </li>
             <li class="nav-item">
-            <a class="nav-link disabled color-red">Disabled</a>
+              <a class="nav-link disabled">Disabled</a>
             </li>
           </ul>
         </div>
       </div>
-      <div>
-        <form class="d-flex align-items-center" role="search">
-          <input class="form-control me-2 px-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
+  
+      <div class="d-flex justify-content-center align-items-center">
+        <div>
+          <form class="d-flex align-items-center" role="search">
+            <input class="form-control me-2 px-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+           </form>
+        </div>
+        <a class="nav-link" href="signup.html">
+          <i class="fa-solid fa-user btn-light d-flex justify-content-center align-items-center ms-3" style=" color: black;"></i>
+        </a>
+        <!-- <div id="cart-shop" >
+          <i class="fa-solid fa-cart-shopping " style="color: black; height: 50%;"></i>
+          <span style="color: black;">0</span>
+        </div> -->
+        <div class="d-flex align-items-center">
+            <ul id="slide-out" id="cart" class="sidenav text-black" style="width: 40%; background-color: aliceblue;">
+              <h1>
+                Shopping Cart
+              </h1>
+              <table class="table table-hover ">
+                <thead id="cart-header"> <!--table header-->
+                    <tr class="bg-light"> <!--table row-->
+                        <th>No.</th> <!--table heading-->
+                        <th>Title</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody id="cart-body"> <!--table body-->
+                    <!-- <tr>
+                        <td>1</td> table data
+                        <td>T-shirt-Black</td>
+                        <td>$99</td>
+                    </tr> -->
+                </tbody>
+                <tfoot class="bg-light"> <!--table footer-->
+                    <tr>
+                        <td>Total:<span id="total-price">0</span>.000đ</td>
+                    </tr>
+                </tfoot>
+              </table>
+            </ul>
+            <p href="#" data-target="slide-out" class="sidenav-trigger">
+              <i class="material-icons blue-text">
+                <a class="nav-link" id="cart-shop"  href="#">
+                  <i class="fa-solid fa-cart-shopping " style="color: black; height: 50%;">
+                    <span style="color: black;">0</span>
+                  </i>
+                </a>
+              </i>
+            </p>
+        </div>
       </div>
-      <div>
-
-       <div id="slide-out" class="sidenav d-block text-center ">
+      <div class="sidenav-overlay" style="display: none; opacity: 0;"></div>
+      <!-- <div id="slide-out" class="sidenav d-block text-center ">
         <i class="fa-solid fa-user btn-light" style="font-size: 60px; color: black;"></i>
         <div id="information">
-          <p class="email text-black">vv </p>
+          <p class="email text-black"></p>
           <p class="password"></p>
         </div>
        </div>
        <p href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons blue-text">
        <a class="nav-link" href="signup.html"><i class="fa-solid fa-user btn-light" style="font-size: 20px;margin-right: 20px; color: black;"></i></a>
        </p>
-     </div>
+     </div> -->
      <!-- <div>
        <ul id="slide-out" class="sidenav">
                  
@@ -69,10 +112,8 @@
        <a class="nav-link" href="signup.html"><i class="fa-solid fa-user btn-light" style="font-size: 20px;margin-right: 20px; color: black;"></i></a>
        </i></p>
      </div> -->
-  </nav>
-   </div>
-   
-
+    </nav>
+  </div>
   <div id="product-area" class="container-fluid row justify-content-center text-white">
     <!-- <div class="card" style="width: 18rem; margin: 20px;">
       <img src="${data[i].image}" alt="..." width="100%">
